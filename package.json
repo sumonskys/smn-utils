@@ -1,0 +1,20 @@
+{
+  "name": "smn-utils",
+  "version": "1.0.0",
+  "description": "Packet of usefull all of utility helper function for daily use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumonskys/smn-utils.git"
+  },
+  "author": "Samrat Shahajahan",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumonskys/smn-utils/issues"
+  },
+  "homepage": "https://github.com/sumonskys/smn-utils#readme"
+}
