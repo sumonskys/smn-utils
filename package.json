@@ -1,6 +1,6 @@
 {
   "name": "smn-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Packet of usefull all of utility helper function for daily use.",
   "main": "index.js",
   "scripts": {

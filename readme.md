@@ -1,6 +1,6 @@
-## Installation
+# smn-utils v1.0.2
 
----
+## Installation
 
 Using npm:
 
