@@ -1,4 +1,4 @@
-# smn-utils v1.0.2
+# smn-utils v1.0.4
 
 ## Installation
 
