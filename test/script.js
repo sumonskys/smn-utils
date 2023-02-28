@@ -2,7 +2,7 @@ import {
   CCTSC,
   ConvertHMS,
   ConvertMS,
-  convertToCurrency,
+  ConvertToCurrency,
   Ellipsis,
   FuncRunTime,
   RandomRange,
@@ -98,4 +98,8 @@ console.log(SCTCC("_hello _world"));
 
 // Convert to currency
 console.log("> Convert to currency")
-console.log(convertToCurrency(101.5, "USD", "us-US"));
+console.log(ConvertToCurrency(101.5, "USD", "us-US"));
+
+// Is Numeric Check
+console.log("> Is Numeric Check")
+console.log(IsNumeric(101.5));

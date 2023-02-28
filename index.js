@@ -180,7 +180,7 @@ export const SCTCC = (text) => {
 };
 
 // Convert Currency
-export const convertToCurrency = (num, currency = "EUR", locale = "nl-NL") => {
+export const ConvertToCurrency = (num, currency = "EUR", locale = "nl-NL") => {
   const formatter = new Intl.NumberFormat(locale, {
     style: "currency",
     currency: currency,
@@ -188,3 +188,6 @@ export const convertToCurrency = (num, currency = "EUR", locale = "nl-NL") => {
 
   return formatter.format(num);
 };
+
+// Check is numeric
+export const IsNumeric = val => !isNaN(val);

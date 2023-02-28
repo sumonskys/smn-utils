@@ -1,4 +1,4 @@
-# smn-utils v1.0.4
+# smn-utils v1.0.6
 
 ## Installation
 
@@ -140,6 +140,11 @@ SCTCC("_hello _world");
 
 // Convert currency from amount
 // Exp: $101.50
-import { convertToCurrency } from "smn-utils";
-convertToCurrency(101.5, "USD", "us-US");
+import { ConvertToCurrency } from "smn-utils";
+ConvertToCurrency(101.5, "USD", "us-US");
+
+// Check value numeric or not
+// Exp: true
+import { IsNumeric } from "smn-utils";
+IsNumeric(101.5);
 ```
